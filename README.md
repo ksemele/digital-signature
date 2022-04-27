@@ -10,3 +10,13 @@ For checking digital sign on my files feel free to use this simple shell script.
 ```
 ./check-sign-file.sh <filename> [filename.signature] [public-keyfile]
 ```
+
+Script download my publickey from this repo and check digital sign.
+
+## Requirements
+```
+bash
+awk
+curl
+openssl
+```
